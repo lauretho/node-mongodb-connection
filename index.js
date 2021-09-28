@@ -16,7 +16,7 @@ const cs_iam = new ConnectionString(uri_iam, {
 
 const cs = new ConnectionString(uri, {
   user: 'l.thomas@betclicgroup.com',
-  password: 'NousSachons2706!'
+  password: ''
 });
 
 console.log(cs.toString());
